@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+/* .inner-container {
+  max-width: 1023px;
+  margin: auto;
+} */
 
 .hero-section {
   background-image: url('./bg.png');
@@ -11,9 +15,26 @@ body {
   background-position: center;
   background-size: cover;
   padding: 60px 0;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   font-family: 'Lato', sans-serif;
   clip-path: polygon(0 0, 100% 0%, 100% 93%, 50% 100%, 0 93%);
+}
+
+@media (max-width: 1200px) {
+  .hero-section {
+    clip-path: polygon(0 0, 100% 0%, 100% 94%, 50% 100%, 0 94%);
+  }
+}
+@media (max-width: 768px) {
+  .hero-section {
+    clip-path: polygon(0 0, 100% 0%, 100% 96%, 50% 100%, 0 96%);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-section {
+    clip-path: polygon(0 0, 100% 0%, 100% 98%, 50% 100%, 0 98%);
+  }
 }
 
 .hero-title {
@@ -78,6 +99,7 @@ body {
   }
 }
 .price-tag {
+  min-width: 270px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -112,6 +134,7 @@ body {
 .price-tag .price {
   background-color: red;
   border-radius: 12px;
+  text-shadow: 0px 0px 18px rgb(0 0 0 / 30%);
 }
 
 .hero ul {
@@ -148,6 +171,13 @@ body {
   padding: 25px 50px;
   font-size: 27px;
   font-weight: 700;
+  box-shadow: 0px 0px 25px 10px rgb(0 0 0 / 50%);
+  border-radius: 5px 5px 5px 5px;
+  transition: all 0.3s;
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.hero .btn-green:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 1200px) {

@@ -15,25 +15,25 @@ body {
   background-position: center;
   background-size: cover;
   padding: 60px 0;
-  padding-bottom: 80px;
+  padding-bottom: 85px;
   font-family: 'Lato', sans-serif;
-  clip-path: polygon(0 0, 100% 0%, 100% 93%, 50% 100%, 0 93%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
 }
 
 @media (max-width: 1200px) {
   .hero-section {
-    clip-path: polygon(0 0, 100% 0%, 100% 94%, 50% 100%, 0 94%);
+    clip-path: polygon(0 0, 100% 0%, 100% 92%, 50% 100%, 0 92%);
   }
 }
 @media (max-width: 768px) {
   .hero-section {
-    clip-path: polygon(0 0, 100% 0%, 100% 96%, 50% 100%, 0 96%);
+    clip-path: polygon(0 0, 100% 0%, 100% 94%, 50% 100%, 0 94%);
   }
 }
 
 @media screen and (max-width: 450px) {
   .hero-section {
-    clip-path: polygon(0 0, 100% 0%, 100% 98%, 50% 100%, 0 98%);
+    clip-path: polygon(0 0, 100% 0%, 100% 96%, 50% 100%, 0 96%);
   }
 }
 

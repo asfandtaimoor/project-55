@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  background-color: rgb(14, 14, 97);
+  padding: 60px 0;
+  padding-bottom: 120px;
+  font-family: 'Lato', sans-serif;
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 50% 100%, 0 93%);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 900;
+}
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-title {
+    font-size: 30px;
+  }
+}
+.hero-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .hero-subtitle {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-subtitle {
+    font-size: 22px;
+  }
+}
+
+.hero-para-1 {
+  font-size: 32px;
+}
+@media (max-width: 1200px) {
+  .hero-para-1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-para-1 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-para-1 {
+    font-size: 18px;
+  }
+}
+.price-tag {
+  position: absolute;
+  top: -10px;
+  font-size: 45px;
+  font-weight: 900;
+  padding: 5px !important;
+}
+.price-tag h1 {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 96%;
+}
+.price-tag .price {
+  background-color: red;
+  border-radius: 12px;
+}
+
+.hero ul {
+  list-style-type: none;
+}
+.hero ul li {
+  margin-top: 4.5px;
+  font-size: 23px;
+}
+
+@media (max-width: 1200px) {
+  .hero ul li {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .hero ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero ul li {
+    font-size: 18px;
+  }
+}
+.hero ul img {
+  margin-right: 10px;
+}
+
+.hero .btn-green {
+  background-color: #81b94c;
+  color: #fff;
+  padding: 25px 50px;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .hero .btn-green {
+    font-size: 25px;
+    padding: 19px 45px;
+  }
+}
+@media (max-width: 768px) {
+  .hero .btn-green {
+    padding: 17px 42px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero .btn-green {
+    padding: 15px 40px;
+    font-size: 21px;
+    width: 100%;
+  }
+}

@@ -6,7 +6,10 @@ body {
 }
 
 .hero-section {
-  background-color: rgb(14, 14, 97);
+  background-image: url('./bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 60px 0;
   padding-bottom: 120px;
   font-family: 'Lato', sans-serif;
@@ -88,6 +91,24 @@ body {
   font-weight: 900;
   line-height: 96%;
 }
+
+@media (max-width: 1200px) {
+  .price-tag h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .price-tag h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .price-tag h1 {
+    font-size: 28px;
+  }
+}
+
 .price-tag .price {
   background-color: red;
   border-radius: 12px;
